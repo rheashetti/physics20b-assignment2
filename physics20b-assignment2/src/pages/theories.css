@@ -1,0 +1,47 @@
+.theories-section {
+  padding: 4rem 1rem;
+  margin-bottom: -4rem;
+}
+
+.theory-card {
+    max-width: 600px;
+    margin: 5rem auto 0 auto; /* Added top margin */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: #00000069;
+}
+
+.theory-card h2 {
+    text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.theory-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.theory-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.theory-nav button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.theory-nav button:hover {
+  background-color: #000;
+}

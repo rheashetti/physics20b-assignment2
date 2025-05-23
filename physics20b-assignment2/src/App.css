@@ -1,10 +1,55 @@
 body {
-  background: url()
+  background: url(./assets/milkyway.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.top-nav-bar {
+  width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  background: url(./assets/milkyway.jpg) no-repeat center center fixed;
+  z-index: 1000;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.059);
 }
+
+.top-nav-bar-links {
+  display: flex;
+  gap: 20px;
+  margin:auto;
+  margin-top: 10px;
+  
+}
+
+.top-nav-bar-links a {
+  font-size: 1.5em;
+  color: #E6E6FA;
+  font-weight: bold;  
+}
+
+.top-nav-bar-links a.active {
+  color: #deb6ff;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.footer p{
+  font-weight: bold;
+  color: #E6E6FA;
+}
+
